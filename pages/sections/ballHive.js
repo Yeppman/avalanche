@@ -6,7 +6,7 @@ import {} from "@fortawesome/fontawesome-svg-core";
 
 
 function Header() {
-  // const props = useSpring({ opacity: 1, from: { opacity: 0 } });
+  // const props = useSpring({ opacity: 1, from: { opacity: 0 } });;
   return (
     <Fade bottom>
       <div
