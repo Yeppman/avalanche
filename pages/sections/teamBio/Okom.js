@@ -5,6 +5,8 @@ import { Fade, Flip, Slide, Reveal } from "react-reveal";
 
 import Link from "next/link";
 
+import {FiInstagram, FiTwitter, FiLinkedin} from 'react-icons/fi'
+
 
 const potrait =
 "https://www.duckerfrontier.com/wp-content/uploads/2019/01/Chris-Fisher225x225.png";
@@ -48,25 +50,21 @@ function AttorneyF(){
                            </p>
                            <div className="startUpTeam-box-socials">
                              <div className="startUpTeam-box-socials-image-content">
-                               <img
-                                 src={instagramIcon}
-                                 className="startUpTeam-box-socials-image"
-                               />
+                               <span>
+                                 <FiInstagram />
+                               </span>
                              </div>
-       
                              <div className="startUpTeam-box-socials-image-content">
-                               <img
-                                 src={linkedInicon}
-                                 className="startUpTeam-box-socials-image"
-                               />
+                               <span>
+                                 <FiTwitter />
+                               </span>
                              </div>
-       
                              <div className="startUpTeam-box-socials-image-content">
-                               <img
-                                 src={twitterIcon}
-                                 className="startUpTeam-box-socials-image"
-                               />
+                               <span>
+                                 <FiLinkedin />
+                               </span>
                              </div>
+
                            </div>
                          </div>
                        </div>

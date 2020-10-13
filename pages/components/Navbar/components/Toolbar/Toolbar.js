@@ -28,7 +28,7 @@ class Toolbar extends Component {
           <div className="spacer" />
           <div className="toolbar_navigation-items">
             <ul>
-              <Link href="">
+              <Link href="../../../../sections/about">
                 <li className="nav-it">
                   <a>About</a>
                 </li>

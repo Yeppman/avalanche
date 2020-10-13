@@ -28,16 +28,49 @@ const Header = () => {
         </div>
         <div className="header-button">
           <div>
-            <button className="home-button">Get Started</button>
+            <button className="home-button">Sign Up</button>
           </div>
           <div>
-            <button className="home-button-b">Get Started</button>
+            <button className="home-button-b">Learn More</button>
           </div>
         </div>
       </div>
     </div>
   );
 };
+
+
+const CardPage = () => {
+  return (
+    <div className="page-container page-margin">
+
+    <h1 className="card-header-text">Features</h1>
+
+      <div className="grid-box">
+      <div className="p-card">
+        <div className="p-card-body">
+            <h1>Digital Academy</h1>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled </p>
+        </div>
+      </div>
+      <div className="p-card">
+        <div className="p-card-body">
+            <h1>Sponsorship</h1>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled </p>
+        </div>
+      </div>
+
+      <div className="p-card">
+        <div className="p-card-body">
+            <h1>Contact</h1>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled </p>
+        </div>
+      </div>
+
+      </div>
+    </div>
+  )
+}
 
 const PageContent = () => {
   return (
@@ -152,7 +185,9 @@ const PageContentB = () => {
                 </div>
               </div>
             </Fade>
-            <div className="right"></div>
+            <div className="right">
+              <img className="img-shadow" src="https://images.unsplash.com/photo-1510597026538-da2e86b8588a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=772&q=80" />
+            </div>
           </div>
         </div>
       </div>
@@ -160,7 +195,9 @@ const PageContentB = () => {
       <div className="page-container">
         <div className="boxHeight">
           <div className="page-grid-b">
-            <div className="left"></div>
+            <div className="left">
+              <img className="img-shadow" src="https://images.unsplash.com/photo-1485110168560-69d4ac37b23e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" />
+            </div>
             <Fade right>
               <div className="right">
                 <h3 className="h3text">SCOUTS</h3>
@@ -214,15 +251,7 @@ const PageContentB = () => {
                   poorly organized and managed. We are using advanced
                   technologies to help you track and manage tournament data,
                   player records and capture players brilliance to champion
-                  their professional status. We are also enabling coaches and
-                  aspiring soccer technicians build their profiles to track
-                  growth and progress. For so long, tournament data and player
-                  records have been poorly organized and managed. We are using
-                  advanced technologies to help you track and manage tournament
-                  data, player records and capture players brilliance to
-                  champion their professional status. We are also enabling
-                  coaches and aspiring soccer technicians build their profiles
-                  to track growth and progress.
+                  their professional status.
                 </p>
                 <div className="page-content-box">
                   <ul className="page-content-order">
@@ -251,7 +280,9 @@ const PageContentB = () => {
                 </div>
               </div>
             </Fade>
-            <div className="right"></div>
+            <div className="right">
+              <img src="https://image.freepik.com/free-photo/football-composition-with-ball-copyspace_23-2147827616.jpg" className="img-shadow" />
+            </div>
           </div>
         </div>
       </div>
@@ -259,7 +290,9 @@ const PageContentB = () => {
       <div className="page-container">
         <div className="boxHeight">
           <div className="page-grid-b">
-            <div className="left"></div>
+            <div className="left">
+            <img src="https://image.freepik.com/free-photo/young-goalkeeper-soccer-man-isolated-academy-soccer-team_1150-14668.jpg" className="img-shadow" />
+            </div>
             <Fade right>
               <div className="right">
                 <h3 className="h3text">SOCCER ACADEMIES/CLUBS</h3>
@@ -310,6 +343,7 @@ export default function Main() {
       <NavbarTwo />
       <Header />
       <PageContentB />
+      <CardPage />
       <PageContent />
       <FooterSection />
     </>

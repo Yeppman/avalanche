@@ -1,9 +1,10 @@
 import NavbarTwo from "../components/navbar-two";
 import { Fade, Flip, Slide, Reveal } from "react-reveal";
-import FooterSection from '../components/footer'
-import { FcCheckmark  } from "react-icons/fc";
-import {} from '@fortawesome/fontawesome-svg-core'
+import FooterSection from "../components/footer";
+import { FcCheckmark } from "react-icons/fc";
+import {} from "@fortawesome/fontawesome-svg-core";
 
+CardPage
 
 function Header() {
   // const props = useSpring({ opacity: 1, from: { opacity: 0 } });
@@ -21,9 +22,60 @@ function Header() {
           <a className="openingButton2">Get Started</a>
         </div>
       </div>
+      <div classname="grid-box">
+        
+      </div>
     </Fade>
   );
 }
+
+const CardPage = () => {
+  return (
+    <div className="page-container page-margin">
+
+    <h1 className="card-header-text">Features</h1>
+
+      <div className="grid-box">
+      <div className="p-card">
+        <div className="p-card-body">
+            <h1>Digital Academy</h1>
+            <p>Lorem</p>
+            <p>Lorem</p>
+            <p>Lorem</p>
+            <p>Lorem</p>
+            <p>Lorem</p>
+
+        </div>
+      </div>
+      <div className="p-card">
+        <div className="p-card-body">
+            <h1>Program</h1>
+            <p>Lorem</p>
+            <p>Lorem</p>
+            <p>Lorem</p>
+            <p>Lorem</p>
+            <p>Lorem</p>
+
+        </div>
+      </div>
+
+      <div className="p-card">
+        <div className="p-card-body">
+            <h1>Tournaments</h1>
+            <p>Lorem ipsum</p>
+            <p>Lorem</p>
+            <p>Lorem</p>
+            <p>Lorem</p>
+            <p>Lorem</p>
+
+        </div>
+      </div>
+
+      </div>
+    </div>
+  )
+}
+
 
 function BallHIveValues() {
   return (
@@ -91,7 +143,7 @@ function BallHIveValues() {
     </div>
   );
 }
- 
+
 const BriefingSection = () => {
   const brieftText =
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod aliqua. Ut enim ad minim veniam, quis";
@@ -112,9 +164,7 @@ const BriefingSection = () => {
               <img src={Icon1} className="displayBoxes-icon-image" />
             </div>
             <p className="displayBoxes-heading">PLAYER</p>
-            <p className="displayBoxes-text">
-              
-            </p>
+            <p className="displayBoxes-text"></p>
           </div>
         </Flip>
       </li>
@@ -125,10 +175,7 @@ const BriefingSection = () => {
               <img src={Icon2} className="displayBoxes-icon-image" />
             </div>
             <p className="displayBoxes-heading">Scout</p>
-            <p className="displayBoxes-text">
-            
-            </p>
-        
+            <p className="displayBoxes-text"></p>
           </div>
         </Flip>
       </li>
@@ -139,12 +186,8 @@ const BriefingSection = () => {
             <div className="displayBoxes-icon">
               <img src={Icon2} className="displayBoxes-icon-image" />
             </div>
-            <p className="displayBoxes-heading">
-              Coach/Manager
-            </p>
-            <p className="displayBoxes-text">
-           
-            </p>
+            <p className="displayBoxes-heading">Coach/Manager</p>
+            <p className="displayBoxes-text"></p>
           </div>
         </Flip>
       </li>
@@ -155,21 +198,14 @@ const BriefingSection = () => {
             <div className="displayBoxes-icon">
               <img src={Icon2} className="displayBoxes-icon-image" />
             </div>
-            <p className="displayBoxes-heading">
-              Academia
-            </p>
-            <p className="displayBoxes-text">
-              
-            </p>
+            <p className="displayBoxes-heading">Academia</p>
+            <p className="displayBoxes-text"></p>
           </div>
         </Flip>
       </li>
     </ul>
   );
 };
-
-
-
 
 function BallHiveIntro() {
   return (
@@ -206,7 +242,11 @@ export default function BallHivePage() {
                 <Header />
               </div>
 
-              <div className="right"></div>
+              <div className="right">
+
+                <img src="https://newsletter-images-precise.s3.eu-west-2.amazonaws.com/landing.png" />
+
+              </div>
             </div>
           </div>
         </div>
@@ -215,7 +255,6 @@ export default function BallHivePage() {
       <div className="fitter">
         <BallHiveIntro />
       </div>
-
 
 
       <div className="fitter">
@@ -231,7 +270,6 @@ export default function BallHivePage() {
               app also gives them the capacity to directly connect with other
               players, coaches and scouts. The app also allows users document
               tournament data by allowing participants of tournaments create
-              
               competitions and upload data about best performances and
             </p>
           </div>
@@ -242,11 +280,11 @@ export default function BallHivePage() {
                 src="https://www.mockupworld.co/wp-content/uploads/dynamic/2020/07/free-isometric-iphone-mockup-psd-690x455-c-default.jpg"
                 className="page-grid-image"
               /> */}
+              <img src="https://newsletter-images-precise.s3.eu-west-2.amazonaws.com/login.png" />
             </div>
           </div>
         </div>
       </div>
-
 
       <div className="page-container">
         <div className="boxHeight">
@@ -267,7 +305,7 @@ export default function BallHivePage() {
                       </span>{" "}
                       Create your profile.
                     </li>
-                  
+
                     <li className="page-content-order-list">
                       <span>
                         <FcCheckmark />
@@ -285,7 +323,6 @@ export default function BallHivePage() {
           </div>
         </div>
       </div>
-
 
       <div className="fitter">
         <div className="boxHeight">
@@ -316,7 +353,6 @@ export default function BallHivePage() {
                       Use our advance search filter to find talents that fit
                       your requirements.
                     </li>
-                   
                   </ul>
                 </div>
                 <div className="page-content-button-box">
@@ -328,15 +364,15 @@ export default function BallHivePage() {
         </div>
       </div>
 
+      <div className="fitter">
+        <CardPage />
+      </div>
 
+      <div className="fitter">
+        <BriefingSection />
+      </div>
 
-              <div className="fitter">
-                <BriefingSection/>
-              </div>
-
-        <FooterSection/>
-
+      <FooterSection />
     </>
   );
 }
- 
