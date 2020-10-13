@@ -3,7 +3,7 @@ import { useSpring, useTransition, animated, config } from "react-spring";
 
 import { GiSoccerBall } from "react-icons/gi";
 import { FaBasketballBall, FaTableTennis } from "react-icons/fa";
-
+import {BiBaseball} from 'react-icons/bi'
 import { motion } from "framer-motion";
 // import TeamPage from "./sections/team";
 import { Fade, Flip, Slide, Reveal } from "react-reveal";
@@ -117,7 +117,7 @@ const PageContent = () => {
           </div>
           <div className="page-content-box">
             <span className="page-content-icon">
-              <FaTableTennis />
+              <BiBaseball />
             </span>
             <h1>Retention</h1>
             <p>

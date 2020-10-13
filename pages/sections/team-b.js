@@ -2,6 +2,7 @@ import React from "react";
 
 import Link from "next/link";
 import NavbarTwo from "../components/navbar-two";
+import FooterSection from "../components/footer";
 
 export default function Teams() {
   const potrait =
@@ -124,7 +125,7 @@ export default function Teams() {
           </div>
         </div>
       </div>
-      <NavbarTwo />
+      <FooterSection />
     </>
   );
 }
