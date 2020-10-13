@@ -77,7 +77,7 @@ const PageContent = () => {
     <div className="page-container">
       <div className="page-content-fit">
         <div className="">
-          <h1 className="page-header-text">Built exclusively for you</h1>
+          <h1 className="page-header-text">Built exclusively for young Scouts</h1>
           <p>
             Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
             officia deserunt mollit laborum — semper quis lectus nulla.
@@ -89,7 +89,7 @@ const PageContent = () => {
               {" "}
               <GiSoccerBall />
             </span>
-            <h1>1. Acquisition</h1>
+            <h1>Acquisition</h1>
             <p>
               Duis aute irure dolor in reprehenderit in voluptate velit esse
               cillum dolore eu fugiat nulla pariatur.
@@ -99,7 +99,7 @@ const PageContent = () => {
               <span className="page-content-icon">
                   <FaBasketballBall />
               </span>
-            <h1>2. Activation</h1>
+            <h1>Activation</h1>
             <p>
               Duis aute irure dolor in reprehenderit in voluptate velit esse
               cillum dolore eu fugiat nulla pariatur.
@@ -109,7 +109,7 @@ const PageContent = () => {
             <span className="page-content-icon">
               <FaTableTennis />
             </span>
-            <h1>3.Retention</h1>
+            <h1>Retention</h1>
             <p>
               Duis aute irure dolor in reprehenderit in voluptate velit esse
               cillum dolore eu fugiat nulla pariatur.
@@ -119,7 +119,7 @@ const PageContent = () => {
             <span className="page-content-icon">
               <FaTableTennis />
             </span>
-            <h1>4.Retention</h1>
+            <h1>Retention</h1>
             <p>
               Duis aute irure dolor in reprehenderit in voluptate velit esse
               cillum dolore eu fugiat nulla pariatur.
