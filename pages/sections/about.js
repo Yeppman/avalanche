@@ -9,7 +9,7 @@ export default function About() {
       <div className="page-container page-margin">
         <div className="about-us"></div>
         <div className="about-us">
-          <h1 className="about-us-heading">1. WHO WE ARE</h1>
+          <h1 className="about-us-heading">WHO WE ARE</h1>
           <p className="about-us-text">
             Sports Avalanche Ltd is a Nigerian sports technology start up with a
             diverse team of a Lawyer, a UEFA Accredited sports journalist,
@@ -32,7 +32,7 @@ export default function About() {
             plethora of reasons. First, there is an over reliance on
             intermediaries because players have no tailor made platform to
             directly put their talents on display, track their performances and
-            network with people within the footballing industry. The second
+            network with people within the footbaq1lling industry. The second
             problem is the lack of funding, which makes players miss out on
             trial opportunities globally. This is as a result of the high
             financial risks involved in aimless travel to chase opportunities

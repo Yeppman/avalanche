@@ -262,7 +262,7 @@ export default function TeamPage() {
                           className="startUpTeam-box-socials-image"
                         />
                       </div>
-
+                        
                       <div className="startUpTeam-box-socials-image-content">
                         <img
                           src={linkedInicon}
