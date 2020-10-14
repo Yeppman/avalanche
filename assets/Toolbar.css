@@ -94,6 +94,17 @@
   border-radius: 6px;
 }
 
+.toolbar__toggle-button{
+  color: #fff;
+  background-color: #fff;
+}
+
+.toggle-button__line{
+  color: #fff;
+  background-color: #fff;
+}
+
+
 @media (max-width: 768px) {
   .toolbar_navigation-items {
     display: none;

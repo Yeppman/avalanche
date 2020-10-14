@@ -524,7 +524,7 @@ export default function Main() {
       <NewPage />
       {/* <PageContentB /> */}
       <CardPage />
-      {/* <PageContent /> */}
+      <PageContent />
       <FooterSection />
     </>
   );
