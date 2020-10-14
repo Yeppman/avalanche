@@ -28,6 +28,13 @@ class Toolbar extends Component {
           <div className="spacer" />
           <div className="toolbar_navigation-items">
             <ul>
+
+            <Link href="../../../../sections/ballHive">
+                <li className="nav-it">
+                  <a>Product</a>
+                </li>
+              </Link>
+
               <Link href="../../../../sections/about">
                 <li className="nav-it">
                   <a>About</a>
@@ -40,7 +47,7 @@ class Toolbar extends Component {
                 </li>
               </Link>
 
-              <Link href="../../../../sections/regForm">
+              <Link href="">
                 <li className="nav-it">
                   <a>Contact</a>
                 </li>
@@ -52,7 +59,7 @@ class Toolbar extends Component {
                 </li>
               </Link> */}
 
-              <Link href="../../../../sections/ballHive">
+              <Link href="../../../../sections/regForm">
                 <li className="nav-it-2">
                   <button className="nav-button">Get Scouted</button>
                 </li>

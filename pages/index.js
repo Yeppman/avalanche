@@ -3,7 +3,7 @@ import { useSpring, useTransition, animated, config } from "react-spring";
 
 import { GiSoccerBall } from "react-icons/gi";
 import { FaBasketballBall, FaTableTennis } from "react-icons/fa";
-import {BiBaseball} from 'react-icons/bi'
+import { BiBaseball } from "react-icons/bi";
 import { motion } from "framer-motion";
 // import TeamPage from "./sections/team";
 import { Fade, Flip, Slide, Reveal } from "react-reveal";
@@ -14,7 +14,6 @@ import { FcCheckmark } from "react-icons/fc";
 import NavbarTwo from "./components/navbar-two";
 import PageBoxes from "./components/page-boxes";
 import Navbar from "./components/new-navbar";
-
 
 const Header = () => {
   return (
@@ -39,45 +38,59 @@ const Header = () => {
   );
 };
 
-
 const CardPage = () => {
   return (
     <div className="page-container page-margin">
-
-    <h1 className="card-header-text">Features</h1>
+      <h1 className="card-header-text">Programs</h1>
 
       <div className="grid-box">
-      <div className="p-card">
-        <div className="p-card-body">
+        <div className="p-card">
+          <div className="p-card-body">
             <h1>Digital Academy</h1>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled </p>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled{" "}
+            </p>
+          </div>
         </div>
-      </div>
-      <div className="p-card">
-        <div className="p-card-body">
+        <div className="p-card">
+          <div className="p-card-body">
             <h1>Sponsorship</h1>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled </p>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled{" "}
+            </p>
+          </div>
         </div>
-      </div>
 
-      <div className="p-card">
-        <div className="p-card-body">
+        <div className="p-card">
+          <div className="p-card-body">
             <h1>Contact</h1>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled </p>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled{" "}
+            </p>
+          </div>
         </div>
-      </div>
-
       </div>
     </div>
-  )
-}
+  );
+};
 
 const PageContent = () => {
   return (
     <div className="page-container">
       <div className="page-content-fit">
         <div className="">
-          <h1 className="page-header-text">Built exclusively for young Scouts</h1>
+          <h1 className="page-header-text">
+            Built exclusively for young Scouts
+          </h1>
           <p>
             Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
             officia deserunt mollit laborum — semper quis lectus nulla.
@@ -96,9 +109,9 @@ const PageContent = () => {
             </p>
           </div>
           <div className="page-content-box">
-              <span className="page-content-icon">
-                  <FaBasketballBall />
-              </span>
+            <span className="page-content-icon">
+              <FaBasketballBall />
+            </span>
             <h1>Activation</h1>
             <p>
               Duis aute irure dolor in reprehenderit in voluptate velit esse
@@ -135,9 +148,8 @@ const PageContentB = () => {
   return (
     <>
       <div className="page-container">
-
         <div className="page-heading">
-            <h1 className="page-header-text">Lorem Ipsum</h1>
+          <h1 className="page-header-text">Lorem Ipsum</h1>
         </div>
 
         <div className="boxHeight">
@@ -186,7 +198,10 @@ const PageContentB = () => {
               </div>
             </Fade>
             <div className="right">
-              <img className="img-shadow" src="https://images.unsplash.com/photo-1510597026538-da2e86b8588a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=772&q=80" />
+              <img
+                className="img-shadow"
+                src="https://images.unsplash.com/photo-1510597026538-da2e86b8588a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=772&q=80"
+              />
             </div>
           </div>
         </div>
@@ -196,7 +211,10 @@ const PageContentB = () => {
         <div className="boxHeight">
           <div className="page-grid-b">
             <div className="left">
-              <img className="img-shadow" src="https://images.unsplash.com/photo-1485110168560-69d4ac37b23e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" />
+              <img
+                className="img-shadow"
+                src="https://images.unsplash.com/photo-1485110168560-69d4ac37b23e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+              />
             </div>
             <Fade right>
               <div className="right">
@@ -281,7 +299,10 @@ const PageContentB = () => {
               </div>
             </Fade>
             <div className="right">
-              <img src="https://image.freepik.com/free-photo/football-composition-with-ball-copyspace_23-2147827616.jpg" className="img-shadow" />
+              <img
+                src="https://image.freepik.com/free-photo/football-composition-with-ball-copyspace_23-2147827616.jpg"
+                className="img-shadow"
+              />
             </div>
           </div>
         </div>
@@ -291,7 +312,10 @@ const PageContentB = () => {
         <div className="boxHeight">
           <div className="page-grid-b">
             <div className="left">
-            <img src="https://image.freepik.com/free-photo/young-goalkeeper-soccer-man-isolated-academy-soccer-team_1150-14668.jpg" className="img-shadow" />
+              <img
+                src="https://image.freepik.com/free-photo/young-goalkeeper-soccer-man-isolated-academy-soccer-team_1150-14668.jpg"
+                className="img-shadow"
+              />
             </div>
             <Fade right>
               <div className="right">

@@ -1,114 +1,150 @@
-.header-section{
-    margin-top: 5rem;
-    margin-bottom: 3rem;
+.header-section {
+  margin-top: 5rem;
+  margin-bottom: 3rem;
 }
 
-.header-text{
-    margin: 2rem;    
+.header-text {
+  margin: 2rem;
 }
 
-.header-text h1{
-    text-align: center;
-    font-size: 3.25rem;
-    color: #fff;
+.header-text h1 {
+  text-align: center;
+  font-size: 3.25rem;
+  color: #fff;
 }
 
-.header-text p{
-    text-align: center;
-    color: rgb(153, 147, 147);
-    font-size: 1.25rem;
+.header-text p {
+  text-align: center;
+  color: rgb(153, 147, 147);
+  font-size: 1.25rem;
 }
 
-.header-button{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+.header-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
-.home-button{
-    border: none;
-    text-align: center;
-    background-color: #049444;
-    color: white;
-    padding: .75rem 2rem;
-    margin: 1rem;
+.home-button {
+  border: none;
+  text-align: center;
+  background-color: #049444;
+  color: white;
+  padding: 0.75rem 2rem;
+  margin: 1rem;
 }
 
-.grid-box{
-    display: grid;
-    grid-gap: 2rem;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+.grid-box {
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
-.home-button-b{
-    text-align: center;
-    background-color: rgb(121, 128, 128);
-    padding: .75rem 2rem;
-    border: none;
-    color: white;
-    margin: 1rem;
+.home-button-b {
+  text-align: center;
+  background-color: rgb(121, 128, 128);
+  padding: 0.75rem 2rem;
+  border: none;
+  color: white;
+  margin: 1rem;
 }
 
-.page-content-box h1{
-    font-size: 1rem;
-    text-align: center;
+.page-content-box h1 {
+  font-size: 1rem;
+  text-align: center;
 }
 
-.page-content-fit{
-    margin-top: 3rem;
-    margin-bottom: 3rem;
+.page-content-fit {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }
 
 .page-header-text {
-    font-size: 2rem;
-    color: white;
-    text-align: center;
+  font-size: 2rem;
+  color: white;
+  text-align: center;
 }
 
-.page-content-icon{
-    font-size: 4rem;
-    color: black;
-    text-align: center;
-    align-self: center;
-    /* margin-right: auto; */
-    margin-left: 8rem;
+.page-content-icon {
+  font-size: 4rem;
+  color: black;
+  text-align: center;
+  align-self: center;
+  /* margin-right: auto; */
+  margin-left: 8rem;
 }
 
 .page-heading {
-    font-size: 
+  font-size: ;
 }
 
-.p-card{
-    border: 1px solid #fff;
+.p-card {
+  border: 1px solid #fff;
+  padding: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 8px 0px,
+    rgba(0, 0, 0, 0.19) 0px 6px 20px 0px;
+}
+
+.card-header-text {
+  color: white;
+  font-size: 3rem;
+  font-weight: 800;
+  text-align: center;
+}
+
+.p-card-body h1 {
+  font-size: 1.3rem;
+  color: white;
+  font-weight: 800;
+}
+
+.page-margin {
+  margin-top: 4rem;
+  margin-bottom: 3rem;
+}
+
+.about-us-img-box {
+  /* background-color: yellow; */
+  padding-top: 10rem;
+  /* background-image: url("https://image.freepik.com/free-photo/soccer-ball-white-line-stadium_1150-5285.jpg"); */
+  background: -webkit-linear-gradient(
+      45deg,
+      /* rgba(64, 62, 66, 0.9), */
+      /* rgba(64, 62, 66, 0.9) */
+    ),
+    url('https://image.freepik.com/free-photo/soccer-ball-white-line-stadium_1150-5285.jpg')
+      50% no-repeat;
+  padding-bottom: 10rem;
+  /* max-height: 300px; */
+}
+
+.about-page-header {
+  font-size: 2rem;
+}
+
+.img-shadow {
+  width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.about-us-heading {
+  color: white !important;
+  text-align: center;
+}
+
+.for-paralla{
+    font-size:2rem;
+    font-weight: 700;
+    padding: 20px;
+    color:white !important;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.about-us-text{
     padding: 2rem;
-    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.card-header-text{
-    color: white;
-    font-size: 3rem;
-    font-weight: 800;
-    text-align: center;
-}
-
-.p-card-body h1{
-    font-size: 1.3rem;
-    color: white;
-    font-weight: 800;
-}
-
-.page-margin{
-    margin-top: 10rem;
-    margin-bottom: 10rem;
-}
-
-.about-page-header{
-    font-size: 2rem;
-}
-
-.img-shadow{
-    width: 100%;
-    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: white !important;
 }
