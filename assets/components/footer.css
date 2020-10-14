@@ -20,13 +20,14 @@ footer{
 
 .main-content .box {
     flex-basis: 50%;
-    padding: 10px 20px;
+    /* padding: 10px 20px; */
 }
 
 .box h2 {
     font-size: 1.125rem;
     font-weight: 600;
     text-transform: uppercase;
+    padding: 1rem;
 }
 
 .box .content {
@@ -54,6 +55,7 @@ footer{
 
 .left .content p {
     text-align: justify;
+    padding:1rem ;
 }
 
 .left .content .social {
@@ -187,4 +189,17 @@ footer{
     .main-content .box {
         margin: 5px 0;
     }
+
+    .left .content .social {
+        margin: 10rem 0 0 0;
+    }
+    
+}
+
+@media screen and (max-width: 900px) {
+
+    .left .content .social {
+        margin: 5rem 0 0 0;
+    }
+    
 }

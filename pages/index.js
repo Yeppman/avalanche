@@ -83,6 +83,161 @@ const CardPage = () => {
   );
 };
 
+const NewPage = () => {
+  return (
+    <div className="page-container">
+      <div className="page-content-fit">
+        <div className="">
+          <h1 className="page-header-text">
+            Built exclusively for young Scouts
+          </h1>
+          <p>
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+            officia deserunt mollit laborum — semper quis lectus nulla.
+          </p>
+        </div>
+        <div className="grid-box">
+          <div className="">
+            <h3 className="h3text">PLAYERS</h3>
+            <p className="pText">
+              As an aspiring football professional, we help you build and
+              optimize your profile, upload highlight reels, track your progress
+              and performances and we help you showcase your talent to a large
+              network of scouts. Do you believe in your talent? Kick start your
+              career here:
+            </p>
+            <div className="page-content-box">
+              <ul className="page-content-order">
+                <li className="page-content-order-list">
+                  <span>
+                    <FcCheckmark />
+                    Create your profile.
+                  </span>{" "}
+                </li>
+                <li className="page-content-order-list">
+                  <span>
+                    <FcCheckmark />
+                  </span>{" "}
+                  Update and optimize your profile with our expert tips.
+                </li>
+                <li className="page-content-order-list">
+                  <span>
+                    <FcCheckmark />
+                  </span>{" "}
+                  Connect directly with scouts.
+                </li>
+                <li className="page-content-order-list">
+                  <span>
+                    <FcCheckmark />
+                  </span>{" "}
+                  Benefit from our unending pool of opportunities.{" "}
+                </li>
+              </ul>
+            </div>
+            <div className="page-content-button-box">
+              <button className="page-content-button">Get Started</button>
+            </div>
+          </div>
+          <div>
+            <img
+              className="img-shadow"
+              src="https://images.unsplash.com/photo-1510597026538-da2e86b8588a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=772&q=80"
+            />
+          </div>
+        </div>
+
+        <div className="grid-box">
+          <div className="">
+            <img
+              className="img-shadow"
+              src="https://images.unsplash.com/photo-1485110168560-69d4ac37b23e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+            />
+          </div>
+          <div className="">
+            <h3 className="h3text">SCOUTS</h3>
+            <p className="pText">
+              We are leveraging on technology to improve scouting by giving
+              scouts access to a broad and diverse database of talents. We are
+              creating a platform for millions of talents to prove themselves to
+              scouts.
+            </p>
+            <div className="page-content-box">
+              <ul className="page-content-order">
+                <li className="page-content-order-list">
+                  <span>
+                    <FcCheckmark />
+                  </span>{" "}
+                  Get access to our pool of talents and study expert reports and
+                  analytics.{" "}
+                </li>
+                <li className="page-content-order-list">
+                  <span>
+                    <FcCheckmark />
+                  </span>{" "}
+                  Use our advance search filter to find talents that fit your
+                  requirements.
+                </li>
+                <li className="page-content-order-list">
+                  <span>
+                    <FcCheckmark />
+                  </span>{" "}
+                  Follow/track players progress and land a talent.
+                </li>
+              </ul>
+            </div>
+            <div className="page-content-button-box">
+              <a className="page-content-button">Get Started</a>
+            </div>
+          </div>
+        </div>
+
+        <div className="grid-box">
+          <div className="left">
+            <h3 className="h3text">COACHES/MANAGERS</h3>
+            <p className="pText">
+              For so long, tournament data and player records have been poorly
+              organized and managed. We are using advanced technologies to help
+              you track and manage tournament data, player records and capture
+              players brilliance to champion their professional status.
+            </p>
+            <div className="page-content-box">
+              <ul className="page-content-order">
+                <li className="page-content-order-list">
+                  <span>
+                    <FcCheckmark />
+                  </span>{" "}
+                  Create and update personal career profiles.
+                </li>
+                <li className="page-content-order-list">
+                  <span>
+                    <FcCheckmark />
+                  </span>{" "}
+                  Update tournament data.
+                </li>
+                <li className="page-content-order-list">
+                  <span>
+                    <FcCheckmark />
+                  </span>{" "}
+                  Track and manage important sporting events.
+                </li>
+              </ul>
+            </div>
+            <div className="page-content-button-box">
+              <a className="page-content-button">Get Started</a>
+            </div>
+          </div>
+          <div>
+            <img
+              src="https://image.freepik.com/free-photo/football-composition-with-ball-copyspace_23-2147827616.jpg"
+              className="img-shadow"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
 const PageContent = () => {
   return (
     <div className="page-container">
@@ -366,9 +521,10 @@ export default function Main() {
       {/* <Navbar /> */}
       <NavbarTwo />
       <Header />
-      <PageContentB />
+      <NewPage />
+      {/* <PageContentB /> */}
       <CardPage />
-      <PageContent />
+      {/* <PageContent /> */}
       <FooterSection />
     </>
   );
