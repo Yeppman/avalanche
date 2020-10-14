@@ -13,10 +13,6 @@ const sideDrawer = (props) => {
           <a href="/">Home</a>
         </li>
 
-        <li>
-          <a className="side-nav-item">Product</a>
-        </li>
-
           <li className="side-nav-item">
             <a href="../../../../sections/ballHive">Product</a>
           </li>
