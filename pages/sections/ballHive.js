@@ -21,7 +21,7 @@ function Header() {
           <a className="openingButton2">Get Started</a>
         </div>
       </div>
-      <div classname="grid-box">
+      <div className="grid-box">
         
       </div>
     </Fade>

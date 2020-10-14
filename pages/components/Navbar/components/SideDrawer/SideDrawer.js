@@ -14,32 +14,24 @@ const sideDrawer = (props) => {
         </li>
 
         <li>
-          <a className="side-nav-item">Our Product</a>
+          <a className="side-nav-item">Product</a>
         </li>
 
-        <Link href="../../../../sections/ballHive">
           <li className="side-nav-item">
-            <a>Product</a>
+            <a href="../../../../sections/ballHive">Product</a>
           </li>
-        </Link>
 
-        <Link href="../../../../sections/about">
           <li cclassName="side-nav-item">
-            <a>About</a>
+            <a href="../../../../sections/about">About</a>
           </li>
-        </Link>
 
-        <Link href="../../../../sections/team-b">
           <li className="side-nav-item">
-            <a>Team</a>
+            <a href="../../../../sections/team-b">Team</a>
           </li>
-        </Link>
 
-        <Link href="#">
-          <li className="side-nav-item">
+          <li href="#" className="side-nav-item">
             <a>Contact</a>
           </li>
-        </Link>
       </ul>
     </nav>
   );
