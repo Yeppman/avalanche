@@ -518,8 +518,8 @@ const PageContentB = () => {
 export default function Main() {
   return (
     <>
-      {/* <Navbar /> */}
-      <NavbarTwo />
+      <Navbar />
+      {/* <NavbarTwo /> */}
       <Header />
       <NewPage />
       {/* <PageContentB /> */}

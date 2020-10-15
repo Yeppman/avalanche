@@ -2,6 +2,7 @@ import React from "react";
 import FooterSection from "../components/footer";
 import NavbarTwo from "../components/navbar-two";
 import { Parallax, Background } from "react-parallax";
+import Navbar from "../components/new-navbar";
 
 
 export default function About() {
@@ -26,7 +27,7 @@ export default function About() {
 
   return (
     <>
-      <NavbarTwo />
+      <Navbar />
       <Parallax bgImage={image1} strength={500}>
       <div style={{ height: 500 }}>
         <p className="for-paralla">The story behind the project</p>

@@ -47,6 +47,13 @@
   
   .nav-item {
     height: 80px;
+    text-decoration: none;
+    padding: 1.75rem 1rem;
+  }
+
+  .nav-item a {
+    text-decoration: none;
+    color: #fff;
   }
   
   .nav-links {
@@ -75,7 +82,7 @@
     display: none;
   }
   
-  @media screen and (max-width: 960px) {
+  @media(max-width: 960px) {
     .NavbarItems {
       position: relative;
     }

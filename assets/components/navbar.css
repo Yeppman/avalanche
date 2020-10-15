@@ -6,7 +6,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
-
+.logo{
+    height: 50px;
+    object-fit: contain;
+}
 
 nav {
     height: 10vh;

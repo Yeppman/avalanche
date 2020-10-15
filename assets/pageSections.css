@@ -86,7 +86,7 @@
   height: 100vh;
   background-color: rgb(255, 255, 255);
   background: 
-  /* linear-gradient(
+  linear-gradient(
       45deg,
       rgba(10, 71, 13, 0.9) 0%,
       rgba(64, 62, 66, 0.9) 100%
@@ -97,16 +97,16 @@
 }
 
 .headerBox2 {
-  height: 900px;
+ 
   background-color:rgb(24, 26, 27) !important;
-  /* background:
+  background:
    linear-gradient(
       45deg,
       rgba(43, 75, 43, 0.959) 0%,
       rgba(23, 235, 76, 0.795) 100%
     ),
     url('https://newsletter-images-precise.s3.eu-west-2.amazonaws.com/Avalanche/Sports+Avalanche.png')
-      center center no-repeat; */
+      center center no-repeat;
   background-size: cover;
 }
 

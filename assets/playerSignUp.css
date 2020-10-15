@@ -51,3 +51,37 @@
     background-color: #f1f1f1;
     text-align: center;
   }
+
+  .reg-category-container{
+    padding: 20px;
+  }
+  
+  .reg-category-container .reg-category-list{
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    grid-gap: 20px;
+  }
+  
+  .reg-category-item{
+    display: block;
+    align-items: block;
+  
+  }
+  
+  .reg-category-icon{
+    height: 100px;
+    object-fit: contain;
+    text-align: center;
+    font-size: 4em;
+  }
+  
+  .reg-category-heading{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom:10px;
+  }
+  
+  .reg-category-text{
+    text-align: center;
+    font-size: 20px;
+  }

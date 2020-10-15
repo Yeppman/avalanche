@@ -94,16 +94,23 @@
   font-weight: 800;
   text-align: center;
 }
-
+5
 .p-card-body h1 {
   font-size: 1.3rem;
   color: white;
   font-weight: 800;
+  text-align: center;
+}
+
+.p-card-body p {
+  font-size: 15px;
+  text-align: center;
+
 }
 
 .page-margin {
-  margin-top: 4rem;
-  margin-bottom: 3rem;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
 }
 
 .about-us-img-box {
@@ -148,4 +155,8 @@
 .about-us-text{
     padding: 2rem;
     color: white !important;
+}
+
+.intro-header-img{
+  padding: 1.5rem;
 }

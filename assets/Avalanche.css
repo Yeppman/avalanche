@@ -152,7 +152,7 @@ body{
   display: grid;
   grid-gap: 20px;
   grid-template-columns: repeat(2, 1fr);
-  padding: 20rem 0px 20px 0px;
+  padding: 10rem 0px 20px 0px;
 }
 
 .page-grid-b {

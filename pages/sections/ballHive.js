@@ -3,7 +3,9 @@ import { Fade, Flip, Slide, Reveal } from "react-reveal";
 import FooterSection from "../components/footer";
 import { FcCheckmark } from "react-icons/fc";
 import {} from "@fortawesome/fontawesome-svg-core";
-
+import Navbar from "../components/new-navbar";
+import { Parallax, Background } from "react-parallax";
+import { GiSoccerBall } from "react-icons/gi";
 
 function Header() {
   // const props = useSpring({ opacity: 1, from: { opacity: 0 } });;
@@ -21,9 +23,7 @@ function Header() {
           <a className="openingButton2">Get Started</a>
         </div>
       </div>
-      <div className="grid-box">
-        
-      </div>
+      <div className="grid-box"></div>
     </Fade>
   );
 }
@@ -31,50 +31,44 @@ function Header() {
 const CardPage = () => {
   return (
     <div className="page-container page-margin">
-
-    <h1 className="card-header-text">Features</h1>
+      <h1 className="card-header-text">Features</h1>
 
       <div className="grid-box">
-      <div className="p-card">
-        <div className="p-card-body">
+        <div className="p-card">
+          <div className="p-card-body">
             <h1>Digital Academy</h1>
-            <p>Lorem</p>
-            <p>Lorem</p>
-            <p>Lorem</p>
-            <p>Lorem</p>
-            <p>Lorem</p>
-
+            <p>
+              The start up will have its independent scouts, to fish out talents
+              and periodically enroll them into the Ball Hive Academy.
+            </p>
+            <button className="">Learn More</button>
+          </div>
         </div>
-      </div>
-      <div className="p-card">
-        <div className="p-card-body">
+        <div className="p-card">
+          <div className="p-card-body">
             <h1>Program</h1>
             <p>Lorem</p>
             <p>Lorem</p>
             <p>Lorem</p>
             <p>Lorem</p>
             <p>Lorem</p>
-
+          </div>
         </div>
-      </div>
 
-      <div className="p-card">
-        <div className="p-card-body">
+        <div className="p-card">
+          <div className="p-card-body">
             <h1>Tournaments</h1>
             <p>Lorem ipsum</p>
             <p>Lorem</p>
             <p>Lorem</p>
             <p>Lorem</p>
             <p>Lorem</p>
-
+          </div>
         </div>
       </div>
-
-      </div>
     </div>
-  )
-}
-
+  );
+};
 
 function BallHIveValues() {
   return (
@@ -144,26 +138,20 @@ function BallHIveValues() {
 }
 
 const BriefingSection = () => {
-  const brieftText =
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod aliqua. Ut enim ad minim veniam, quis";
-  const Icon1 =
-    "https://operapay.com/static/entrepreneurship-d58f1f92c1e1610bf94c0c4f52df42ac.png";
-  const Icon2 =
-    "https://operapay.com/static/diversity-adf7cb76247cac698f4b9728d9093558.png";
-  const Icon3 =
-    "https://operapay.com/static/innovation-2d24351f8b17ca734e10ce320b8dca6d.png";
-  const Icon4 =
-    "https://operapay.com/static/community-04b9cf599f180bb56b2fef2dc4e6ce20.png";
   return (
     <ul className="displayBoxes-box">
       <li className="displayBoxes-list">
         <Flip bottom>
           <div className="displayBoxes-text-content">
             <div className="displayBoxes-icon">
-              <img src={Icon1} className="displayBoxes-icon-image" />
+              {/* <img src={Icon1} className="displayBoxes-icon-image" /> */}
+              <GiSoccerBall />
             </div>
-            <p className="displayBoxes-heading">PLAYER</p>
-            <p className="displayBoxes-text"></p>
+            <p className="displayBoxes-heading">Transperency</p>
+            <p className="displayBoxes-text">
+              We believe in an open and purely merit based system of talent
+              evaluation.
+            </p>
           </div>
         </Flip>
       </li>
@@ -171,10 +159,15 @@ const BriefingSection = () => {
         <Flip bottom>
           <div className="displayBoxes-text-content">
             <div className="displayBoxes-icon">
-              <img src={Icon2} className="displayBoxes-icon-image" />
+              <GiSoccerBall />
+              {/* <img src={Icon2} className="displayBoxes-icon-image" /> */}
             </div>
-            <p className="displayBoxes-heading">Scout</p>
-            <p className="displayBoxes-text"></p>
+            <p className="displayBoxes-heading">Dedication</p>
+            <p className="displayBoxes-text">
+              Our team is passionate and committed to creating better outcomes
+              for sports professionals globally through the use of technology
+              and innovation.
+            </p>
           </div>
         </Flip>
       </li>
@@ -183,10 +176,14 @@ const BriefingSection = () => {
         <Flip bottom>
           <div className="displayBoxes-text-content">
             <div className="displayBoxes-icon">
-              <img src={Icon2} className="displayBoxes-icon-image" />
+              {/* <img src={Icon2} className="displayBoxes-icon-image" /> */}
+              <GiSoccerBall />
             </div>
-            <p className="displayBoxes-heading">Coach/Manager</p>
-            <p className="displayBoxes-text"></p>
+            <p className="displayBoxes-heading">Democratization</p>
+            <p className="displayBoxes-text">
+              We believe in creating access and providing equal opportunities
+              for everyone, regardless of their backgrounds and identities.
+            </p>
           </div>
         </Flip>
       </li>
@@ -195,10 +192,14 @@ const BriefingSection = () => {
         <Flip bottom>
           <div className="displayBoxes-text-content">
             <div className="displayBoxes-icon">
-              <img src={Icon2} className="displayBoxes-icon-image" />
+              {/* <img src={Icon2} className="displayBoxes-icon-image" /> */}
+              <GiSoccerBall />
             </div>
-            <p className="displayBoxes-heading">Academia</p>
-            <p className="displayBoxes-text"></p>
+            <p className="displayBoxes-heading">Dedication</p>
+            <p className="displayBoxes-text">
+              We believe in creating access and providing equal opportunities
+              for everyone, regardless of their backgrounds and identities.
+            </p>
           </div>
         </Flip>
       </li>
@@ -212,7 +213,7 @@ function BallHiveIntro() {
       <div className="ballHive-intro-container">
         <div className="ballHive-intro-image">
           <img
-            src="https://newsletter-images-precise.s3.eu-west-2.amazonaws.com/Avalanche/Asset+2%403x.png"
+            src="https://newsletter-images-precise.s3.eu-west-2.amazonaws.com/Avalanche/ballhiveAsset+5%402x.png"
             className="ballHive-intro-logo"
           />
         </div>
@@ -229,140 +230,161 @@ function BallHiveIntro() {
   );
 }
 
-export default function BallHivePage() {
+function Intro() {
   return (
     <>
-      <NavbarTwo />
-      <div className="headerBox2">
-        <div className="shiftBox">
-          <div className="page-container">
-            <div className="page-grid">
-              <div className="left">
-                <Header />
-              </div>
-
-              <div className="right">
-
-                <img src="https://newsletter-images-precise.s3.eu-west-2.amazonaws.com/landing.png" />
-
-              </div>
+      <div className="page-container">
+        <div className="grid-box">
+          <div className="openingBox2">
+            <p className="openingHead2">Ball Hive</p>
+            <p className="openingText2">
+              Solving Problems in Sports with Innovative tech solution
+            </p>
+            <div className="openingButton-box">
+              <a className="openingButton2">Get Started</a>
             </div>
+          </div>
+          <div className="intro-header-img">
+            <img src="https://newsletter-images-precise.s3.eu-west-2.amazonaws.com/landing.png" />
           </div>
         </div>
       </div>
+    </>
+  );
+}
 
-      <div className="fitter">
-        <BallHiveIntro />
-      </div>
-
-
-      <div className="fitter">
-        <div style={{ paddingTop: 20 }} className="page-grid">
-          <div className="left">
+const PageContent = () => {
+  return (
+    <>
+      <div className="page-container">
+        <div className="grid-box">
+          <div className="">
             <p className="h3text">Ball Hive</p>
             <p className="pText">
               Our Flagship product “BALL HIVE” is an app that lets aspiring
               football players create profiles, upload content like highlight
               reels and workout routines, track performances by uploading
               individual statistics vetted by teammates and coaches, and gives
-              exclusive information about various football trials near them. The
+              exclusive information about various football trials near them.
+              {/* The
               app also gives them the capacity to directly connect with other
               players, coaches and scouts. The app also allows users document
               tournament data by allowing participants of tournaments create
-              competitions and upload data about best performances and
+              competitions and upload data about best performances and */}
             </p>
-          </div>
+            <div className="">
+              <h3 className="h3text">Programs</h3>
+              <p className="pText">
+                As an aspiring football professional, we help you build and
+                optimize your profile, upload highlight reels, track your
+                progress and performances .
+              </p>
+              <div className="page-content-box">
+                <ul className="page-content-order">
+                  <li className="page-content-order-list">
+                    <span>
+                      <FcCheckmark />
+                    </span>{" "}
+                    Create your profile.
+                  </li>
 
-          <div className="right">
-            <div className="page-grid-image-container">
-              {/* <img
-                src="https://www.mockupworld.co/wp-content/uploads/dynamic/2020/07/free-isometric-iphone-mockup-psd-690x455-c-default.jpg"
-                className="page-grid-image"
-              /> */}
-              <img src="https://newsletter-images-precise.s3.eu-west-2.amazonaws.com/login.png" />
+                  <li className="page-content-order-list">
+                    <span>
+                      <FcCheckmark />
+                    </span>{" "}
+                    Benefit from our unending pool of opportunities.{" "}
+                  </li>
+                </ul>
+              </div>
+              
+              <div className="page-content-button-box">
+                <a className="page-content-button">Get Started</a>
+              </div>
+            </div>
+          </div>
+          <div className="intro-page-header">
+            <img src="https://newsletter-images-precise.s3.eu-west-2.amazonaws.com/Avalanche/Transparent/15.10.2020_03.23.30_REC-removebg-preview.png" />
+          </div>
+        </div>
+
+        <div className="grid-box">
+          <div>
+            <img src="https://newsletter-images-precise.s3.eu-west-2.amazonaws.com/Avalanche/Transparent/13.10.2020_05.40.17_REC-removebg-preview.png" />
+          </div>
+          <div className="">
+            <h3 className="h3text">SCOUTS</h3>
+            <p className="pText">
+              We are leveraging on technology to improve scouting by giving
+              scouts access to a broad and diverse database of talents. We are
+              creating a platform for millions of talents to prove themselves to
+              scouts.
+            </p>
+            <div className="page-content-box">
+              <ul className="page-content-order">
+                <li className="page-content-order-list">
+                  <span>
+                    <FcCheckmark />
+                  </span>{" "}
+                  Get access to our pool of talents and study expert reports and
+                  analytics.{" "}
+                </li>
+                <li className="page-content-order-list">
+                  <span>
+                    <FcCheckmark />
+                  </span>{" "}
+                  Use our advance search filter to find talents that fit your
+                  requirements.
+                </li>
+              </ul>
+            </div>
+            <div className="page-content-button-box">
+              <a className="page-content-button">Get Started</a>
             </div>
           </div>
         </div>
       </div>
+    </>
+  );
+};
 
-      <div className="page-container">
-        <div className="boxHeight">
-          <div className="page-grid-b">
-            <Fade left>
-              <div className="left">
-                <h3 className="h3text">Programs</h3>
-                <p className="pText">
-                  As an aspiring football professional, we help you build and
-                  optimize your profile, upload highlight reels, track your
-                  progress and performances .
-                </p>
-                <div className="page-content-box">
-                  <ul className="page-content-order">
-                    <li className="page-content-order-list">
-                      <span>
-                        <FcCheckmark />
-                      </span>{" "}
-                      Create your profile.
-                    </li>
+export default function BallHivePage() {
+  // const image1 = "https://images.pexels.com/photos/3621104/pexels-photo-3621104.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500";
+  const image1 =
+    "https://newsletter-images-precise.s3.eu-west-2.amazonaws.com/Avalanche/Sports+Avalanche.png";
 
-                    <li className="page-content-order-list">
-                      <span>
-                        <FcCheckmark />
-                      </span>{" "}
-                      Benefit from our unending pool of opportunities.{" "}
-                    </li>
-                  </ul>
-                </div>
-                <div className="page-content-button-box">
-                  <a className="page-content-button">Get Started</a>
-                </div>
-              </div>
-            </Fade>
-            <div className="right"></div>
-          </div>
-        </div>
+  const styles = {
+    fontFamily: "sans-serif",
+    textAlign: "center",
+  };
+  const insideStyles = {
+    // background: "white",
+    fontSize: 50,
+    fontWeight: 700,
+    padding: 20,
+    color: "white",
+    position: "absolute",
+    top: "50%",
+    left: "50%",
+    transform: "translate(-50%,-50%)",
+  };
+  return (
+    <>
+      <Navbar />
+      {/*       
+  <div className="">
+  <Parallax 
+  className="headerBox2"
+  bgImage={image1} strength={500}>
+      <div style={{ height: 500 }}>
+        <p className="for-paralla">The story behind the project</p>
       </div>
+    </Parallax>
+  </div> */}
 
       <div className="fitter">
-        <div className="boxHeight">
-          <div className="page-grid-b">
-            <div className="left"></div>
-            <Fade right>
-              <div className="right">
-                <h3 className="h3text">SCOUTS</h3>
-                <p className="pText">
-                  We are leveraging on technology to improve scouting by giving
-                  scouts access to a broad and diverse database of talents. We
-                  are creating a platform for millions of talents to prove
-                  themselves to scouts.
-                </p>
-                <div className="page-content-box">
-                  <ul className="page-content-order">
-                    <li className="page-content-order-list">
-                      <span>
-                        <FcCheckmark />
-                      </span>{" "}
-                      Get access to our pool of talents and study expert reports
-                      and analytics.{" "}
-                    </li>
-                    <li className="page-content-order-list">
-                      <span>
-                        <FcCheckmark />
-                      </span>{" "}
-                      Use our advance search filter to find talents that fit
-                      your requirements.
-                    </li>
-                  </ul>
-                </div>
-                <div className="page-content-button-box">
-                  <a className="page-content-button">Get Started</a>
-                </div>
-              </div>
-            </Fade>
-          </div>
-        </div>
+        <BallHiveIntro />
       </div>
-
+      <PageContent />
       <div className="fitter">
         <CardPage />
       </div>

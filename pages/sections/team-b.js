@@ -3,13 +3,14 @@ import React from "react";
 import Link from "next/link";
 import NavbarTwo from "../components/navbar-two";
 import FooterSection from "../components/footer";
+import Navbar from "../components/new-navbar";
 
 export default function Teams() {
   const potrait =
     "https://newsletter-images-precise.s3.eu-west-2.amazonaws.com/Avalanche/attorf.jfif";
   return (
     <>
-      <NavbarTwo />
+      <Navbar />
       <div className="fitter">
         <div className="page-container">
           <div className="team-header-content">

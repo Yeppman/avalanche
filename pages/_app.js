@@ -5,7 +5,7 @@ import '../assets/team.css'
 
 import '../assets/Backdrop.css'
 // import '../assets/DrawerToggleButton.css'
-import '../assets/Navbar.css'
+// import '../assets/Navbar.css'
 import '../assets/responsive.css'
 import '../assets/SideDrawer.css'
 import '../assets/Toolbar.css'
@@ -16,7 +16,7 @@ import '../assets/components/navbar.css'
 import '../assets/Slide.css'
 // import '../assets/cards.css'
 
-// import '../assets/new-navbar.css';
+import '../assets/new-navbar.css';
 import '../assets/Button.css'
 
 import '../assets/ballHive.css'
