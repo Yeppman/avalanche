@@ -31,7 +31,7 @@ function Header() {
 const CardPage = () => {
   return (
     <div className="page-container page-margin">
-      <h1 className="card-header-text">Features</h1>
+      <h1 className="card-header-text">BallHive Programs</h1>
 
       <div className="grid-box">
         <div className="p-card">
@@ -41,28 +41,20 @@ const CardPage = () => {
               The start up will have its independent scouts, to fish out talents
               and periodically enroll them into the Ball Hive Academy.
             </p>
-            <button className="">Learn More</button>
+            {/* <button className="">Learn More</button> */}
           </div>
         </div>
         <div className="p-card">
           <div className="p-card-body">
-            <h1>Program</h1>
-            <p>Lorem</p>
-            <p>Lorem</p>
-            <p>Lorem</p>
-            <p>Lorem</p>
-            <p>Lorem</p>
+            <h1>Monthly Rankings</h1>
+            <p>Every month based off the various activities and strides of users; a Team of the month will be published based on the individual performances viewed by our analysts. </p>
           </div>
         </div>
 
         <div className="p-card">
           <div className="p-card-body">
-            <h1>Tournaments</h1>
-            <p>Lorem ipsum</p>
-            <p>Lorem</p>
-            <p>Lorem</p>
-            <p>Lorem</p>
-            <p>Lorem</p>
+            <h1>Contest</h1>
+            <p>Periodically, random top performers of different mini tournaments will be given the platform to play against established Football clubs and Academies, coached by randomly selected coaches from our database.  </p>
           </div>
         </div>
       </div>
@@ -370,26 +362,15 @@ export default function BallHivePage() {
   return (
     <>
       <Navbar />
-      {/*       
-  <div className="">
-  <Parallax 
-  className="headerBox2"
-  bgImage={image1} strength={500}>
-      <div style={{ height: 500 }}>
-        <p className="for-paralla">The story behind the project</p>
-      </div>
-    </Parallax>
-  </div> */}
-
-      <div className="fitter">
+      <div className="page-container">
         <BallHiveIntro />
       </div>
       <PageContent />
-      <div className="fitter">
+      <div className="page-container">
         <CardPage />
       </div>
 
-      <div className="fitter">
+      <div className="page-container">
         <BriefingSection />
       </div>
 
