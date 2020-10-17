@@ -40,7 +40,7 @@ const Header = () => {
 
 const CardPage = () => {
   return (
-    <div className="page-container page-margin">
+    <div className="page-container page-margin-b">
       <h1 className="card-header-text">Programs</h1>
 
       <div className="grid-box">
@@ -515,6 +515,41 @@ const PageContentB = () => {
   );
 };
 
+const BallhiveInfo = () => {
+  return (
+    <div className="page-container page-margin">
+      <div className="ballhive-info-header">
+        <h1>Ball Hive</h1>
+        <p>
+          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+          officia deserunt mollit laborum — semper quis lectus nulla.
+        </p>
+      </div>
+      <div className="grid-box">
+        <div className="">
+          <h3 className="h3text">BallHive</h3>
+          <p className="pText">
+            Our Flagship product “BALL HIVE” is an app that lets aspiring
+            football players create profiles, upload content like highlight
+            reels and workout routines, track performances by uploading
+            individual statistics vetted by teammates and coaches, and gives
+            exclusive information about various football trials near them.
+          </p>
+          <div className="page-content-button-box">
+            <button className="page-content-button">Get Started</button>
+          </div>
+        </div>
+        <div>
+          <img
+            className="img-shadow"
+            src="https://images.unsplash.com/photo-1510597026538-da2e86b8588a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=772&q=80"
+          />
+        </div>
+      </div>
+    </div>
+  );
+};
+
 export default function Main() {
   return (
     <>
@@ -523,6 +558,7 @@ export default function Main() {
       <Header />
       <NewPage />
       {/* <PageContentB /> */}
+      <BallhiveInfo />
       <CardPage />
       <PageContent />
       <FooterSection />

@@ -35,6 +35,11 @@
     .header-text{
         margin: 0rem;
     }
+    
+    .ballhive-info {
+        grid-template-columns: 1fr !important;
+        padding: 3rem;
+      }
 
 }
 
@@ -56,4 +61,12 @@
         font-size: 1rem;
     }
 
+    .ballhive-info {
+        grid-template-columns: 1fr;
+      }
+
+    .ballhive-info img {
+        object-fit: cover;
+    }
+    
 }

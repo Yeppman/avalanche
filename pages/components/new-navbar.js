@@ -39,12 +39,14 @@ function Navbar() {
           <i class="fab fa-typo3" />
           {/* </Link> */}
           <div className="menu-icon" onClick={handleClick}>
-            <i className={click ? "fas fa-times" : "fas fa-bars"} />
+            <i className={click ? "fas fa-bars" : "fas fa-bars"} />
             {click ? (
-              <div>AiOutlineClose /></div>
-            ) : (
               <div>
                 <AiOutlineClose />
+              </div>
+            ) : (
+              <div>
+                <AiOutlineBars />
               </div>
             )}
           </div>
@@ -78,14 +80,16 @@ function Navbar() {
             <li className="nav-item">
               <Link href="../../../../sections/team-b">Team</Link>
             </li>
-
             {/* </Link> */}
+
+            <li class="nav-item">
+              {button && (
+                <Button buttonStyle="nav-item">
+                  <Link href="../../../../sections/regForm"> Get Scouted</Link>
+                </Button>
+              )}
+            </li>
           </ul>
-          {button && (
-            <Button buttonStyle="nav-item">
-              <Link href="../../../../sections/regForm"> Get Scouted</Link>
-            </Button>
-          )}
         </div>
       </nav>
     </>

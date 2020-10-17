@@ -89,6 +89,9 @@ export default function Teams() {
                   BUSINESS CONSULTANTS & FINANCIAL EXPERTS
                 </h3>
                 <p className="team-box-text">The Pitch Hub</p>
+                <Link href="#">
+                    <button className="team-box-button">VIEW BIO</button>
+                  </Link>
               </div>
             </div>
           </div>

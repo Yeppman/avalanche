@@ -340,25 +340,6 @@ const PageContent = () => {
 };
 
 export default function BallHivePage() {
-  // const image1 = "https://images.pexels.com/photos/3621104/pexels-photo-3621104.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500";
-  const image1 =
-    "https://newsletter-images-precise.s3.eu-west-2.amazonaws.com/Avalanche/Sports+Avalanche.png";
-
-  const styles = {
-    fontFamily: "sans-serif",
-    textAlign: "center",
-  };
-  const insideStyles = {
-    // background: "white",
-    fontSize: 50,
-    fontWeight: 700,
-    padding: 20,
-    color: "white",
-    position: "absolute",
-    top: "50%",
-    left: "50%",
-    transform: "translate(-50%,-50%)",
-  };
   return (
     <>
       <Navbar />

@@ -1,3 +1,7 @@
+html{
+  box-sizing: border-box;
+}
+
 .header-section {
   margin-top: 5rem;
   margin-bottom: 3rem;
@@ -113,6 +117,11 @@
   margin-bottom: 10rem;
 }
 
+.page-margin-b {
+  margin-top: 5rem;
+  margin-bottom:5rem;
+}
+
 .about-us-img-box {
   /* background-color: yellow; */
   padding-top: 10rem;
@@ -159,4 +168,30 @@
 
 .intro-header-img{
   padding: 1.5rem;
+}
+
+.ballhive-info {
+  background: #25282c;
+  /* box-shadow: var(--shadow); */
+  display: grid;
+  /* grid-gap: 30px; */
+  grid-template-columns: repeat(2, 1fr);
+/*   padding: 3rem; */
+}
+
+.ballhive-info-header h1{
+  text-align: center;
+  padding-bottom: 1rem;
+  color: #fff;
+  font-size: 2rem;
+}
+
+.ballhive-info-header p{
+  text-align: center;
+  padding-bottom: 3rem;
+  color: rgb(163, 157, 157);
+}
+
+.ballhive-info-img{
+  object-fit: cover;
 }
