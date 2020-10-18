@@ -560,7 +560,7 @@ export default function Main() {
       {/* <PageContentB /> */}
       <BallhiveInfo />
       <CardPage />
-      <PageContent />
+      {/* <PageContent /> */}
       <FooterSection />
     </>
   );

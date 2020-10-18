@@ -9,8 +9,7 @@ const potrait =
 const AttorneyF_Image =
   "https://newsletter-images-precise.s3.eu-west-2.amazonaws.com/Avalanche/AttroneyF.jpeg";
 
-const oma =
-  "https://pbs.twimg.com/profile_images/1317905427393380352/Y0pNs5eP_400x400.jpg";
+const pichImg = 'http://www.pitchhubghana.com/wp-content/uploads/2018/01/PH-LOGO_3-2.png'
 
 const instagramIcon =
   "https://cdn.iconscout.com/icon/premium/png-64-thumb/instagram-1805197-1532288.png";
@@ -19,7 +18,7 @@ const linkedInicon =
 const twitterIcon =
   "https://cdn.iconscout.com/icon/free/png-64/twitter-1464537-1239448.png";
 
-export default function omahBio() {
+export default function AloBio() {
   return (
     <>
       <NavbarTwo />
@@ -29,22 +28,29 @@ export default function omahBio() {
             <li className="startUpTeam-list">
               <div className="startUpTeam-box">
                 <div className="startUpTeam-image-box">
-                  <img src={oma} className="startUpTeam-image" />
+                  <img src={pichImg} className="startUpTeam-image" />
                 </div>
 
                 <div className="startUpTeam-box-text-content">
-                  <p className="startUpTeam-box-heading">CEO , Founder</p>
+                  <p className="startUpTeam-box-heading">About Pitch Hub</p>
                   <p className="startUpTeam-box-text">
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled it to make a
-                    type specimen book. It has survived not only five centuries,
-                    but also the leap into electronic typesetting, remaining
-                    essentially unchanged. It was popularised in the 1960s with
-                    the release of Letraset sheets containing Lorem Ipsum
-                    passages, and more recently with desktop publishing software
-                    like Aldus PageMaker including versions of Lorem Ipsum.
+                    The Pitch Hub is a Ghanaian organisation that is aimed at
+                    equipping young entrepreneurs in Ghana and Africa with the
+                    soft skills that are needed to build and sustain competitive
+                    business in the 21st century.
+                  </p>
+                  <p className="startUpTeam-box-heading"> Our Focus</p>
+                  <p className="startUpTeam-box-text">
+                    We focus mainly on, investor liaising and capacity building.
+                    The Pitch Hub facilitates training of young entrepreneurs in
+                    the art of pitching their business ideas and connects them
+                    to investors both locally and internationally for funding.
+                    The Pitch Hub with support from partners provides business
+                    consulting to African entrepreneurs to help grow their
+                    businesses. We also undertake outreach programs to tertiary
+                    institutions, religious organisations, among others to
+                    encourage entrepreneurship among young people who have the
+                    drive and passion for business.
                   </p>
                   <div className="startUpTeam-box-socials">
                     <div className="startUpTeam-box-socials-image-content">
@@ -74,7 +80,6 @@ export default function omahBio() {
           </Slide>
         </ul>
       </div>
-      <FooterSection />
     </>
   );
 }

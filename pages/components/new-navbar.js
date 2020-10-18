@@ -82,14 +82,13 @@ function Navbar() {
             </li>
             {/* </Link> */}
 
-            <li class="nav-item">
-              {button && (
+          
+          </ul>
+          {button && (
                 <Button buttonStyle="nav-item">
                   <Link href="../../../../sections/regForm"> Get Scouted</Link>
                 </Button>
               )}
-            </li>
-          </ul>
         </div>
       </nav>
     </>
