@@ -2,6 +2,11 @@ import NavbarTwo from "../../components/navbar-two";
 import FooterSection from "../../components/footer";
 import { Fade, Flip, Slide, Reveal } from "react-reveal";
 
+import Navbar from '../../components/new-navbar'
+
+import {GrFacebook, GrTwitter, GrLinkedinOption} from 'react-icons/gr'
+
+
 import Link from "next/link";
 
 const potrait =
@@ -21,6 +26,7 @@ const twitterIcon =
 export default function AloBio() {
   return (
     <>
+    <Navbar />
       <NavbarTwo />
       <div className="startUpTeam-section">
         <ul className="startUpTeam-container">
@@ -45,27 +51,23 @@ export default function AloBio() {
                     become a lead player in the imminent sports tech revolution.
                   </p>
                   <div className="startUpTeam-box-socials">
-                    <div className="startUpTeam-box-socials-image-content">
-                      <img
-                        src={instagramIcon}
-                        className="startUpTeam-box-socials-image"
-                      />
-                    </div>
+                             <div className="startUpTeam-box-socials-image-content">
+                               <span>
+                                 <GrFacebook />
+                               </span>
+                             </div>
+                             <div className="startUpTeam-box-socials-image-content">
+                               <span>
+                                 <GrTwitter />
+                               </span>
+                             </div>
+                             <div className="startUpTeam-box-socials-image-content">
+                               <span>
+                                 <GrLinkedinOption />
+                               </span>
+                             </div>
 
-                    <div className="startUpTeam-box-socials-image-content">
-                      <img
-                        src={linkedInicon}
-                        className="startUpTeam-box-socials-image"
-                      />
-                    </div>
-
-                    <div className="startUpTeam-box-socials-image-content">
-                      <img
-                        src={twitterIcon}
-                        className="startUpTeam-box-socials-image"
-                      />
-                    </div>
-                  </div>
+                           </div>
                 </div>
               </div>
             </li>

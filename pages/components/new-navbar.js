@@ -51,9 +51,6 @@ function Navbar() {
             )}
           </div>
           <ul className={click ? "nav-menu active" : "nav-menu"}>
-            <Link href="/" className="nav-links">
-              <li className="nav-item">Home</li>
-            </Link>
             {/* <Link
                 href='#'
                 className='nav-links'

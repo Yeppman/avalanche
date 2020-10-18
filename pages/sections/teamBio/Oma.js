@@ -4,6 +4,11 @@ import { Fade, Flip, Slide, Reveal } from "react-reveal";
 
 import Link from "next/link";
 
+import {GrFacebook, GrTwitter, GrLinkedinOption} from 'react-icons/gr'
+
+
+import Navbar from '../../components/new-navbar'
+
 const potrait =
   "https://www.duckerfrontier.com/wp-content/uploads/2019/01/Chris-Fisher225x225.png";
 const AttorneyF_Image =
@@ -22,7 +27,7 @@ const twitterIcon =
 export default function omahBio() {
   return (
     <>
-      <NavbarTwo />
+      <Navbar />
       <div className="startUpTeam-section">
         <ul className="startUpTeam-container">
           <Slide bottom>
@@ -47,27 +52,23 @@ export default function omahBio() {
                     like Aldus PageMaker including versions of Lorem Ipsum.
                   </p>
                   <div className="startUpTeam-box-socials">
-                    <div className="startUpTeam-box-socials-image-content">
-                      <img
-                        src={instagramIcon}
-                        className="startUpTeam-box-socials-image"
-                      />
-                    </div>
+                             <div className="startUpTeam-box-socials-image-content">
+                               <span>
+                                 <GrFacebook />
+                               </span>
+                             </div>
+                             <div className="startUpTeam-box-socials-image-content">
+                               <span>
+                                 <GrTwitter />
+                               </span>
+                             </div>
+                             <div className="startUpTeam-box-socials-image-content">
+                               <span>
+                                 <GrLinkedinOption />
+                               </span>
+                             </div>
 
-                    <div className="startUpTeam-box-socials-image-content">
-                      <img
-                        src={linkedInicon}
-                        className="startUpTeam-box-socials-image"
-                      />
-                    </div>
-
-                    <div className="startUpTeam-box-socials-image-content">
-                      <img
-                        src={twitterIcon}
-                        className="startUpTeam-box-socials-image"
-                      />
-                    </div>
-                  </div>
+                           </div>
                 </div>
               </div>
             </li>

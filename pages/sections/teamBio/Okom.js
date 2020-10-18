@@ -5,7 +5,11 @@ import { Fade, Flip, Slide, Reveal } from "react-reveal";
 
 import Link from "next/link";
 
-import {FiInstagram, FiTwitter, FiLinkedin} from 'react-icons/fi'
+import {GrFacebook, GrTwitter, GrLinkedinOption} from 'react-icons/gr'
+
+
+
+import Navbar from '../../components/new-navbar'
 
 
 const potrait =
@@ -26,7 +30,7 @@ function AttorneyF(){
   
     return(
         <>
-        <NavbarTwo/>
+        <Navbar/>
         <div className="startUpTeam-section">
                  <ul className="startUpTeam-container">
                    <Slide bottom>
@@ -51,17 +55,17 @@ function AttorneyF(){
                            <div className="startUpTeam-box-socials">
                              <div className="startUpTeam-box-socials-image-content">
                                <span>
-                                 <FiInstagram />
+                                 <GrFacebook />
                                </span>
                              </div>
                              <div className="startUpTeam-box-socials-image-content">
                                <span>
-                                 <FiTwitter />
+                                 <GrTwitter />
                                </span>
                              </div>
                              <div className="startUpTeam-box-socials-image-content">
                                <span>
-                                 <FiLinkedin />
+                                 <GrLinkedinOption />
                                </span>
                              </div>
 
